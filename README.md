@@ -17,7 +17,7 @@ MIT
 
 ## Sitio
 
-https://producthunt-7fc97.web.app/
+https://product-h.vercel.app
 
 
 
