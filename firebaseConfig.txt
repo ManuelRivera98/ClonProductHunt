@@ -1,0 +1,19 @@
+1. Install firebase 
+
+# yarn add firebase firebase-admin
+
+2. Crear el archivo de configuración.
+
+# firebase/config.js
+
+3. Crear un context para que los métodos de firebase esten disponibles en toda la app.
+
+# firebase/context.js
+
+4. Crear el archivo firebase con los métodos que vamos a usar de firebase
+
+#firebase/firebase.js
+
+5. Crear el archivo index para exportar los valores de un solo archivo.
+
+#firebase/index.js
