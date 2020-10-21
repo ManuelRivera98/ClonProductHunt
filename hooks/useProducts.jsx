@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useContext } from 'react';
-import { FirebaseContext } from '../firebase';
+import React, { useState, useEffect, useContext } from 'react';
+import { FirebaseContext } from '../firebase/index';
 
 const useProducts = order => {
 
@@ -17,8 +17,8 @@ const useProducts = order => {
     function createSnapshot(snapshot) {
         const products = snapshot.docs.map(doc => {
             return {
-            id: doc.id,
-            ...doc.data()
+                id: doc.id,
+                ...doc.data()
             }
         });
 
